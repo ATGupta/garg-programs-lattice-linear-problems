@@ -26,8 +26,8 @@ int main() {
 	the input can be generally modified by imagining the format as follows: SEQUENTIALLY:
 	[process_count](start position of prerequisites of i in input),
 	[1](length of array),
-	[process_count](time taken by each process)
-	[length of array - start position of prerequisites of process 0](prerequisites of processes)
+	[process_count](time taken by each process),
+	[length of array - start position of prerequisites of process 0](prerequisites of processes).
 	*/
 	
 	int* G = (int*)malloc(process_count * sizeof(int));
